@@ -1,0 +1,1 @@
+SELECT name AS 'Band name' FROM albums;
