@@ -1,3 +1,4 @@
-SELECT bands.name AS 'Band Name' FROM bands 
-JOIN albums ON bands.id = albums.band_id
-GROUP BY bands.name;
+SELECT * FROM albums 
+WHERE release_year IS NOT NULL
+ORDER BY release_year ASC
+LIMIT 1;
